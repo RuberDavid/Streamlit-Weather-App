@@ -63,7 +63,7 @@ def get_current_weather(location : dict) -> dict:
     return weather
 
 
-def ge_last_month_weather(location:dict):
+def get_last_month_weather(location:dict):
     """
 
     Parameters
