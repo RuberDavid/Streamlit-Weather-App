@@ -3,7 +3,7 @@ run:
 init: requirements.txt
 	pip install -r requirements.txt
 get_dependencies:
-	pip freeze > requierements.txt
+	pip freeze > requirements.txt
 clean_db:
 	rm databases/weather.db
 
